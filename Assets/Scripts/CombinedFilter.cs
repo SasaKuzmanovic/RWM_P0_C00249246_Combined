@@ -15,6 +15,11 @@ public class CombinedFilter : MonoBehaviour
         return result;
     }
 
+    public static int run(int x)
+    {
+        return x;
+    }
+
     public static int[] runtotal(int[] xs)
     {
         int[] result = new int[xs.Length];
